@@ -8,3 +8,4 @@ We have been set tasks to create a plant monitoring device using code already pr
 4. Istallation of Rapberry Pi ios(for Mac users).
 5. Specifications for setting up Influx DB using shell, I will include a troubleshooting folder.
 6. Installing Grafana.
+<img width="882" alt="Screenshot 2022-10-30 at 20 27 31" src="https://user-images.githubusercontent.com/114082509/198900671-432d8b9b-e52b-42b1-b1ef-67c6295ebcb5.png">
