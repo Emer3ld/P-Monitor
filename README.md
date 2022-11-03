@@ -8,3 +8,5 @@ We have been set tasks to create a plant monitoring device using code already pr
 4. Installation of Raspberry Pi iOS(for Mac users).
 5. Specifications for setting up Influx DB using shell, I will include a troubleshooting folder.
 6. Installing Grafana.
+7. Code for LED lights
+8. 3D printing file
