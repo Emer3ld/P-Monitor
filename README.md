@@ -3,10 +3,11 @@ We have been set tasks to create a plant monitoring device using code already pr
 
 ** The tools and code we need for our plant monitoring system in order are:
 1. Installation and setup of Arduino IDE
-2. AdaFruit Feather Huzzah board & libraries.
-3. Code for writing to our readings to MQTT.
+2. AdaFruit Feather Huzzah code(MQTT).
+3. Plant monitor setup.
 4. Installation of Raspberry Pi iOS(for Mac users).
 5. Specifications for setting up Influx DB using shell, I will include a troubleshooting folder.
 6. Installing Grafana.
 7. Code for LED lights
 8. 3D printing file
+9. PPTx
