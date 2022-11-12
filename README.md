@@ -24,8 +24,8 @@ Items needed for plant monitor.
 •	1x Plant shield
 •	1x plant (to monitor)
 •	1x DHT22 (Temperature and humidity sensor)
-•	4x resistors
- 
+•	2x resistors
+•	2x resistors
 •	1 x set of plyers
 •	1x Wire cutter
 
