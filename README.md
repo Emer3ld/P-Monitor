@@ -20,12 +20,6 @@ I initially chose the Aglaonema Red Star in CE-Hub and then my Agave cactus to t
 <img width="548" alt="image" src="https://user-images.githubusercontent.com/114082509/201534200-a6fb8ccf-36ac-4acd-89f2-85c5b014197e.png">
 
 
-
-
-
-
-
-
 ## Items needed for the plant monitor.
 
 - 1x Feather Huzzah	
@@ -42,9 +36,6 @@ I initially chose the Aglaonema Red Star in CE-Hub and then my Agave cactus to t
 - 1x Wire cutter
 
 
-
-
-
 ## Methods- Soldering 
 
 Our plant monitors were created with using 2 nails as capacitors and a 3D base and shell that protects our huzzah.
@@ -54,31 +45,7 @@ First, we will look at a brief diagram of how we will wire our plant monitor and
  <img width="320" alt="image" src="https://user-images.githubusercontent.com/114082509/201525245-d621df5b-f977-450d-ac35-65199e41a4aa.png">     <img width="257" alt="image" src="https://user-images.githubusercontent.com/114082509/201525251-d17a6df3-b69e-47c7-ab3f-1acc81e1fb3c.png">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
 We will now place all the resistors on the cover board using this diagram. We will solder the components i.e. resistors and DHTT sensor.
-
- 
-
-
-
 
 
   <img width="314" alt="image" src="https://user-images.githubusercontent.com/114082509/201525374-9fa5e8cb-2852-4750-8af9-b8592985dc74.png"> <img width="289" alt="image" src="https://user-images.githubusercontent.com/114082509/201527952-10e5bd10-2c9e-4166-a800-f28c24d76332.png">
@@ -87,11 +54,6 @@ We will now place all the resistors on the cover board using this diagram. We wi
 
 From my design, I’m not sure if wrapping will cause a longer delay in receiving readings…. Maybe you could create it without the binding but I like the contrasting colours against the yellow base. I also soldered the wires to the top of the nails to prevent corrosion. Although corrosion is inevitable I believe adding an oil coating or acrylic will prevent us from receiving accurate readings but we can always replace the nails if we start to see inaccurate readings.
  
-
-
-
- 
-
 When we have completed putting our plant monitors the should resemble above
 
 Connecting to Mqtt Explorer
@@ -99,20 +61,7 @@ Connecting to Mqtt Explorer
 We will check the serial monitor to show if we are receiving data, as you can see my readings are being produced every minute at the fastest rate of 115200 baud sending dater by 12800 bytes per second. As you can see on Mqtt explorer, my topic is displaying the variables of temperature, humidity and moisture.
 
 
-
-
-
-
-
-
 <img width="552" alt="image" src="https://user-images.githubusercontent.com/114082509/201525543-ab90767c-c135-4d31-9441-bb4c1e75386c.png">
-
-
-
-
-
-
-
 
 
 
@@ -124,20 +73,13 @@ After installing the Arduino IDE  we will need to install several libraries and 
 Select the ‘Tools’ menu the select board manager from that menu you will be able to search for “ESP8266” board,
 Make sure your parameter are set to all to increase your possibility of finding the correct package by the “EP8266 community”
 
- 
-
 Next we will install the Eztime library, which is available on GitHub here. The EZtime library is needed to connect to the Network Time protocol using the waitForSync function. You can download the rest of the code.
 
 The next Library to install is the PubSubClient, this page all also guide you through the installation in which we will pull the file through the Arduino IDE how to get the our data through to the MQTT server, there are many to choose from but we will look at MQTT Explorer and later Influx DB.
 
-
- 
-
-
 <img width="241" alt="image" src="https://user-images.githubusercontent.com/114082509/201530033-aa9cd4aa-49d5-49ef-a16c-ddf4bdc15fc9.png">
  
 Now we will connect our Huzzah to the Wi-Fi but first we will need to include our downloaded library to the code, which will follow the notation of ESP8266WiFi.h a header file extension, listing everything.
-
 
 - #inlcude <ESP8266WiFi.h>
 - const char* ssid	= “SSID”;
@@ -145,8 +87,6 @@ Now we will connect our Huzzah to the Wi-Fi but first we will need to include ou
 - const char* host  	=”iot.io”;
 
 After downloading the PubSub client you can now use the code in the GitHub repository to complete the rest of the setup.
-
-
 
 ## Using the Pi terminal and isntalling  InfluxDB and Grafana
 
@@ -163,13 +103,8 @@ Reboot
 To instal Influx DB (Ubuntu & Debian(ARM 64-bit) we will now need to enter the command
 Sudo apt-get update && sudo apt-get-install influxdb2 
 
-
 <img width="514" alt="image" src="https://user-images.githubusercontent.com/114082509/201533684-e410a726-f4ab-4227-8d58-be22de474344.png">
     
-
-
-
-
 
 We will need to copy and paste the and run another update to fully install InfluxDB with our key using this command:
 
@@ -182,14 +117,7 @@ After creating our MQTT bucket in Influx DB  we can now install Grafana to visua
 Installing Grafana’s setup is very similar to installing InfluxDB, still using terminal
 
 
-
-
-
 <img width="514" alt="image" src="https://user-images.githubusercontent.com/114082509/201533720-d5301542-3493-45d3-afca-1223650362ff.png">
-
-
-
-
 
 
 We will copy the sudo just like we did for the above.
@@ -215,11 +143,10 @@ Make sure you select the correct bucket intially in Grafana if you can't find an
 - LED light
 - 3D warp tunnel to be printed(see file in Setup)
 
-
 ## References
-[^1]: Arduino IDE setup images[^1]
-[^2]: Raspi config troubleshooting pages https://www.seeedstudio.com/blog/2021/01/25/three-methods-to-configure-raspberry-pi-wifi/#:~:text=Using%20the%20arrow%20keys%20on,Network%20Options”%20and%20press%20Enter.&text=Select%20Wi%2Dfi%2C%20then%20follow,menu%20to%20close%20Raspi%2DConfig.
-[^4]: CE-Hub Plant monitor setup instructions, code & schematics- Duncan Wilson 2022.
-[^5]: Plant casing and Dhruv Kumar 2022.
-[^6]: Influx DB image instalation page
-[^7]: Grafana image instalation page
+[^1]: Arduino IDE setup images [^1]
+[^2]: Raspi config troubleshooting pages seedstudi.com[^2]
+[^3]: CE-Hub Plant monitor setup instructions, code & schematics- Duncan Wilson 2022.[^3]
+[^4]: Plant casing and Dhruv Kumar 2022.[^4]
+[^5]: Influx DB image instalation page. [^5]
+[^6]: Grafana image instalation page. [^6]
