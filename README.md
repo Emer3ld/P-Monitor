@@ -18,6 +18,8 @@ I initially chose the Aglaonema Red Star in CE-Hub and then my Agave cactus to t
 
 
 <img width="548" alt="image" src="https://user-images.githubusercontent.com/114082509/201534200-a6fb8ccf-36ac-4acd-89f2-85c5b014197e.png">
+![image](https://user-images.githubusercontent.com/114082509/201541862-c4a225aa-7398-4cb5-b138-ca1827e3d0ec.png)
+
 
 
 ## Items needed for the plant monitor.
