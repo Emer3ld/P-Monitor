@@ -115,4 +115,4 @@ Starting with:
 
 ### Additional design and code to be added
 - LED light
-- 3D warp tunnel to be printed(see file)
+- 3D warp tunnel to be printed(see file in Setup)
