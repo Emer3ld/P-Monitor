@@ -1,37 +1,29 @@
 # Plant-Monitor
-We have been set tasks to create a plant monitoring device using code already provided by the course tutor. An additional part of this task is to incorporate an additional way of adding elements to monitor our plant system. I have chosen to add the function of LED lighting to decipher the plant's most basic needs. Naming the plant monitoring device Chroma Lumiere is based on the concept of chromatophores a colour-changing plant pot where changing colours of light are translating what the plant needs on the fundamental requirements i.e. light, Water and humidity.
+###We have been set tasks to create a plant monitoring device using code already provided by the course tutor. An additional part of this task is to incorporate an additional way of adding elements to monitor our plant system. I have chosen to add the function of LED lighting to decipher the plant's most basic needs. Naming the plant monitoring device Chroma Lumiere is based on the concept of chromatophores a colour-changing plant pot where changing colours of light are translating what the plant needs on the fundamental requirements i.e. light, Water and humidity.
 
-** The tools and code we need for our plant monitoring system in order are:
-1.Installation and setup of Arduino IDE
-2.AdaFruit Feather Huzzah code(MQTT).
-3.Plant monitor setup.
-4.Installation of Raspberry Pi iOS(for Mac users).
-5.Specifications for setting up Influx DB using shell, I will include a troubleshooting folder.
-6.Installing Grafana.
-7.Code for LED lights
+###The tools and code we need for our plant monitoring system in order are:
+-1.Installation and setup of Arduino IDE
+-2.AdaFruit Feather Huzzah code(MQTT).
+-3.Plant monitor setup.
+-4.Installation of Raspberry Pi iOS(for Mac users).
+-5.Specifications for setting up Influx DB using shell, I will include a troubleshooting folder.
+-6.Installing Grafana.
+-7.Code for LED lights
 8.3D printing file
 9.PPTX
 
 Items needed for plant monitor.
 
- 
-•	2x Nails,
-•	1x Feather Huzzah
-•	2x Wires
-•	1 x Shell
-•	1x Moisture
-•	1x Base
-•	1x Plant shield
-•	1x plant (to monitor)
-•	1x DHT22 (Temperature and humidity sensor)
-•	2x resistors
-•	2x resistors
-•	1 x set of plyers
-•	1x Wire cutter
+•	1x Feather Huzzah	•	1x Plant shield
+•	2x Nails,	•	1x plant (to monitor)
+•	2x Wires	•	1x DHT22 (Temperature and humidity sensor)
+•	1 x Shell	•	4x resistors
+•	1x Moisture	•	1 x set of plyers
+•	1x Base	•	1x Wire cutter
 
 Methods- Soldering 
 
-Our plant monitors were created with using 2 nails as capacitors and a 3D base and shell that protects our huzzah.
+Our plant monitors were created using 2 nails as capacitors and a 3D base and shell that protects our huzzah.
 
 First, we will look at a brief diagram of how we will wire our plant monitor and how it applies to the baseboard. 
 
