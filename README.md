@@ -1,7 +1,7 @@
 # Plant-Monitor
 ### We have been set tasks to create a plant monitoring device using code already provided by the course tutor. An additional part of this task is to incorporate an additional way of adding elements to monitor our plant system. I have chosen to add the function of LED lighting to decipher the plant's most basic needs. Naming the plant monitoring device Chroma Lumiere is based on the concept of chromatophores a colour-changing plant pot where changing colours of light are translating what the plant needs on the fundamental requirements i.e. light, Water and humidity.
 
-I initially chose the Aglaonema Red Star in CE-Hub and then my Agave cactus to test at home. They both have a striking appearance and a sensitivity to light which would give me more variables to work with. You might ask why two plants? There weren’t enough plants to go around so I will use my own agave plant for most of my results. However, I will include the Aglaonema red Star as it was in my initial design idea.
+I initially chose the Aglaonema Red Star in CE-Hub and then my Agave cactus to test at home. They both have a striking appearance and a sensitivity to light and humidity which will give me more variables to work with. You might ask why two plants? There weren’t enough plants to go around so I will use my own Agave plant for most of my results. However, I will include the Aglaonema red Star as it was in my initial design idea.
 
 
 ### The tools and code we need for our plant monitoring system in order are:
