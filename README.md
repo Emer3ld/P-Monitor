@@ -149,6 +149,6 @@ Make sure you select the correct bucket intially in Grafana if you can't find an
 [^1]: Arduino IDE setup images [^1]
 [^2]: Raspi config troubleshooting pages seedstudi.com[^2]
 [^3]: CE-Hub Plant monitor setup instructions, code & schematics- Duncan Wilson 2022.[^3]
-[^4]: Plant casing and Dhruv Kumar 2022.[^4]
+[^4]: Plant casing Dhruv Kumar 2022.[^4]
 [^5]: Influx DB image instalation page. [^5]
 [^6]: Grafana image instalation page. [^6]
